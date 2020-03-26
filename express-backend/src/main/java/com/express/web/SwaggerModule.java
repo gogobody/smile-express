@@ -53,11 +53,11 @@ public class SwaggerModule {
         log.info("init swagger ...");
         swagger = new Swagger();
         Info info = new Info();
-        info.title("errand-Api");
+        info.title("express-Api");
         swagger.info(info);
         HashSet<Class<?>> classes = new HashSet<Class<?>>();
         // 把下来的package路径改成你自己的package路径
-        for (Class<?> klass : Scans.me().scanPackage("com.errand.web.module")) {
+        for (Class<?> klass : Scans.me().scanPackage("com.express.web.module")) {
             classes.add(klass);
         }
         Reader.read(swagger, classes);

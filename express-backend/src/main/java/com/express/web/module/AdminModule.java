@@ -53,7 +53,7 @@ public class AdminModule {
             return false;
         }
 
-        System.out.println(tmpFile.getMeta().getFileLocalName());
+//        System.out.println(tmpFile.getMeta().getFileLocalName());
 
 
         File file = tmpFile.getFile();

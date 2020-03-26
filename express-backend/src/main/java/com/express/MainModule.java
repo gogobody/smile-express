@@ -13,7 +13,7 @@ import org.nutz.mvc.ioc.provider.ComboIocProvider;
 @Fail("jsp:jsp.500")
 @Localization(value = "language/", defaultLocalizationKey = "zh-CN")
 @IocBy(type = ComboIocProvider.class, args = {"*js", "ioc/", "*anno", //设置应用所采用的 Ioc 容器
-        "com.errand", //搜索该包下的IocBean
+        "com.express", //搜索该包下的IocBean
         "*tx", // 事务拦截 aop
         "*async" // 异步执行aop
         }) //"*quartz" 即添加了 org.nutz.integration.quartz.QuartzIocLoader 这个预定义的集成配置

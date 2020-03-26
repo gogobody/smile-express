@@ -8,7 +8,7 @@
 var chain={
     "default" : {
         "ps" : [
-            "com.errand.mvc.LogTimeProcessor",
+            "com.express.mvc.LogTimeProcessor",
             "org.nutz.mvc.impl.processor.UpdateRequestAttributesProcessor",
             "org.nutz.mvc.impl.processor.EncodingProcessor",
             "org.nutz.mvc.impl.processor.ModuleProcessor",
@@ -21,11 +21,11 @@ var chain={
     },
     "crossOrigin" : {
         "ps" : [
-            "com.errand.mvc.LogTimeProcessor",
+            "com.express.mvc.LogTimeProcessor",
             "org.nutz.mvc.impl.processor.UpdateRequestAttributesProcessor",
             "org.nutz.mvc.impl.processor.EncodingProcessor",
             "org.nutz.mvc.impl.processor.ModuleProcessor",
-            "com.errand.mvc.CrossOriginProcessor",
+            "com.express.mvc.CrossOriginProcessor",
             "org.nutz.mvc.impl.processor.ActionFiltersProcessor",
             "org.nutz.mvc.impl.processor.AdaptorProcessor",
             "org.nutz.mvc.impl.processor.MethodInvokeProcessor",

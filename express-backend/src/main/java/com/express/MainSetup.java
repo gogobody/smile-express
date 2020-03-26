@@ -24,7 +24,7 @@ public class MainSetup implements Setup {
         Ioc ioc = nc.getIoc();
         Dao dao = ioc.get(Dao.class);
         // 如果没有createTablesInPackage,请检查nutz版本
-        Daos.createTablesInPackage(dao, "com.errand.domain", false);
+        Daos.createTablesInPackage(dao, "com.express.domain", false);
         Daos.migration(dao, User.class, true, true, true);
         Daos.migration(dao, Address.class, true, true, true);
         Daos.migration(dao, Order.class, true, true, true);
