@@ -1,0 +1,19 @@
+/* pages/auth/auth.wxss */
+
+.top {
+  width:100%;padding-left:30rpx;font-size: 28rpx;margin-top:30rpx;
+}
+
+.center {
+  width:100%;padding-left:30rpx;font-size: 28rpx;margin-top:30rpx;
+}
+
+.save-btn {
+
+   width: 20px auto;
+   background: #ffc629;
+   font-size: 13px;
+   color: #fff;
+   margin-top: 15px;
+
+}

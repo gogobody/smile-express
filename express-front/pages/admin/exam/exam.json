@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "申请成为配送员",
+  "usingComponents": {
+    "i-input": "../../../dist/input/index",
+    "i-button": "../../../dist/button/index",
+    "i-panel": "../../../dist/panel/index",
+    "i-toast": "../../../dist/toast/index"
+  }
+}

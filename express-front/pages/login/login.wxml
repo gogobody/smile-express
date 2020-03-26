@@ -1,0 +1,18 @@
+ <i-panel title="选择角色">
+    <i-radio-group current="{{current}}" bindchange="handleFruitChange">
+        <i-radio wx:for="{{role}}" position="{{position}}" wx:key="{{item.id}}" value="{{item.name}}">
+        </i-radio>
+    </i-radio-group>
+</i-panel>
+
+<i-panel title=" ">
+    <i-input bindchange='setName' name="username" value="{{username}}" maxlength='100' title="用户名" autofocus placeholder="请输入用户名" />
+    <i-input bindchange='setPwd' autofocus type="password" title="密码" maxlength='200' placeholder="请输入密码" />
+    <i-alert type="error" wx:if="{{errorMsg}}">
+       {{errorMsg}}
+    </i-alert>
+    <i-toast id="toast" />
+</i-panel>
+
+<i-button bind:click="bindUser" type="warning" shape="circle" size="small">确认绑定</i-button>
+<i-button bind:click="handleClick" type="warning" shape="circle" size="small">若无账号，点我</i-button>

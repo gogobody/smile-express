@@ -1,0 +1,10 @@
+<i-panel title="申请成为配送员">
+<form bindsubmit="formSubmit" report-submit="true">
+    <i-input value="" type="number"  bindchange='getPhone' title="联系电话" placeholder="请输入手机号" maxlength="11"/>
+    <i-input value="" type="textarea" bindchange='getReason' title="申请原因" placeholder="请输入申请原因(最多50字)" maxlength="50" />
+    <i-input value="" type="textarea" bindchange='getAddr' title="详细地址" placeholder="请输入详细地址(最多50字)" maxlength="50" />
+    <i-toast id="toast" />
+    <button bindtap="uploadimg">上传证件</button>
+    <i-button  type="warning" bind:click="formSubmit">申请</i-button>
+</form>
+</i-panel>

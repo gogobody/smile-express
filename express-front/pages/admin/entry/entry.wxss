@@ -1,0 +1,11 @@
+/* pages/admin/entry/entry.wxss */
+.pbtn{
+  width: 60%;
+  background: none;
+  margin: 0 10px;
+
+}
+.pbg{
+  display: block;
+  width: 100%;
+}

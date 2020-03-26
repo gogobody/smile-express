@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/auth/auth",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/custom/center/center",
+    "pages/custom/order/list",
+    "pages/custom/order/detail",
+    "pages/custom/address/pick",
+    "pages/custom/address/search",
+    "pages/custom/address/add",
+    "pages/custom/taker/list",
+    "pages/custom/taker/detail",
+    "pages/custom/credit/list",
+    "pages/custom/score/list",
+    "pages/custom/score/add",
+    "pages/custom/score/detail",
+    "pages/admin/exam/exam",
+    "pages/admin/entry/entry",
+    "pages/logs/logs",
+    "pages/camera/camera",
+    "pages/camera/canvas"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffc629",
+    "navigationBarTitleText": "笑递",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000000",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#fcb900",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/zhuye.png",
+        "selectedIconPath": "images/hlzhuye.png"
+      },
+      {
+        "text": "我的订单",
+        "pagePath": "pages/custom/order/list",
+        "iconPath": "images/wodedingdan.png",
+        "selectedIconPath": "images/hlwodedingdan.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/custom/center/center",
+        "iconPath": "images/gerenzhongxin.png",
+        "selectedIconPath": "images/hlgerenzhongxin.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

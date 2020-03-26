@@ -1,0 +1,25 @@
+<view class='container'>
+  <image class="title" src="/images/help/title8.png"></image>
+  <view class="content">
+    <view class="hd" style="transform:rotateZ({{angle}}deg);">
+      <view class="logo" style="border-radius:50%;overflow:hidden;">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <image class="wave" src="/images/help/wave.png" mode="aspectFill"></image>
+      <image class="wave wave-bg" src="/images/help/wave.png" mode="aspectFill"></image>
+    </view>
+    <view class="bd">
+      <image class="smalltitle" src="/images/help/title1.png"></image>
+      <view class='userinfo-nickname'>
+        哈喽:
+        <open-data type="userNickName"></open-data>
+      </view>
+      <view>
+        <button class='confirm-btn' bindtap='goIndex'>授权</button>
+        <i-toast id="toast" />
+      </view>
+      <text class="copyright">@copyRight笑递</text>
+      <i-toast id="toast" />
+    </view>
+  </view>
+</view>

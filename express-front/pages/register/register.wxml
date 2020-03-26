@@ -1,0 +1,14 @@
+<i-panel title=" ">
+    <i-input bindchange='setName' name="username" value="" maxlength='200' title="用户名" autofocus placeholder="请输入用户名" />
+    <i-input bindchange='setPwd' value="" type="password" maxlength='200' title="密码" placeholder="请输入密码" />
+    <i-input bindchange='setPhone' name="phone" value="" maxlength='200' title="电话" autofocus placeholder="请输入手机号" />
+    <i-alert type="error" wx:if="{{errorMsg}}">
+       {{errorMsg}}
+    </i-alert>
+    <i-toast id="toast" />
+</i-panel>
+
+<i-button bind:click="bindUser" type="warning" shape="circle" size="small">注册</i-button>
+    <view class="center-title">
+     <text>若注册成功请返回重新授权</text>
+    </view>

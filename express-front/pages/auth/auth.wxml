@@ -1,0 +1,9 @@
+<!--pages/auth/auth.wxml-->
+<view class="container">
+  <form bindsubmit='bindSave'>
+    <view class='top'>1、同意当前小程序获取我的微信头像；</view>
+    <view class='center'>2、同意当前小程序获取我的微信昵称等其他信息；</view>
+    <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class="save-btn">授权获取信息</button>
+    <!-- <i-button bind:click="bindGetUserInfo" type="warning" shape="circle" size="small">若无账号，点我</i-button> -->
+  </form>
+</view>

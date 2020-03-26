@@ -1,0 +1,12 @@
+ .col-class{
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    background: #ffc629;
+    font-size: 12px;
+
+}
+.col-class.light{
+    background: #ffc629;
+}

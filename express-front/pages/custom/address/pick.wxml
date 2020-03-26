@@ -1,0 +1,34 @@
+<view class="searchBox">
+  <input placeholder='查找联系人姓名' placeholder-class='placeholder' bindinput='searchInput' value="{{input}}"></input>
+  <i wx:if="{{isEmpty}}" bindtap='clearInput' class="clearInput"></i>
+</view>
+
+  <scroll-view class='address-list' style="height:{{pageHeight}}" scroll-y="true"  style="margin-bottom:140rpx">
+    <view>
+      <view class="float-list">
+        <text class="float-item-left">我的地址</text>
+      </view>
+      <view>
+
+        <view class="bg" wx:if="{{listIsNull}}"></view>
+        <view class='address-item' wx:for="{{addressList}}" bindtap='chooseAddress' data-info='{{item}}'>
+          <view>
+            <i class="ui-icon-location"></i>
+            <text class="td-single">{{item.areaName}}</text>
+            <view class="column-list">
+              <text class='td-left'>{{item.name}}</text>
+              <text class='td-right column-item'>{{item.phone}}</text>
+                <text class='td-right' catchtap='editAddress' data-info="{{item}}">编辑</text>
+                <text class='td-right' catchtap='deleteAddress' data-id="{{item.id}}">删除</text>
+                
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    
+  </scroll-view>
+  <i-toast id="toast" />
+  <view class='button-group' style="position:fixed;width:100%;bottom:0;background:#fff;">
+      <navigator class="large-btn-yellow" plain='false' url='search?orderType={{orderType}}&addressType={{addressType}}&title={{title}}'>+ 新增地址</navigator>
+  </view>
