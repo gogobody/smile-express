@@ -4,8 +4,6 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @user: 180296-Web寻梦狮
- * @date: 2018-02-03 16:27
  * @description: WebUtils
  */
 public class WebUtils {

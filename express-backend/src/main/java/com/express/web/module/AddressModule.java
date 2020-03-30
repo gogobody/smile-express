@@ -15,7 +15,6 @@ import org.nutz.mvc.adaptor.JsonAdaptor;
 import org.nutz.mvc.annotation.*;
 
 /**
- * @user: 180296-Web寻梦狮
  * @description: 登录模块
  */
 

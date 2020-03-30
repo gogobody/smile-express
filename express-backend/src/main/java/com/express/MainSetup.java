@@ -10,8 +10,6 @@ import org.nutz.mvc.Setup;
 import java.util.Date;
 
 /**
- * @user: 180296-Web寻梦狮
- * @date: 2018-01-10 17:08
  * @description: MainSetup 需要实现Setup接口,并在其中初始化数据库表
  */
 public class MainSetup implements Setup {

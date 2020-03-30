@@ -10,8 +10,6 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
 /**
- * @user: 180296-Web寻梦狮
- * @date: 2018-01-13 15:45
  * @description:  添加任务类、清理用户需要清理2个表,新建类
  */
 @IocBean

@@ -1,6 +1,4 @@
 /**
- *@user: 180296-Web寻梦狮
- *@date: 2018-01-12 16:29
  *@description: mail邮件配置
  */
 var ioc={

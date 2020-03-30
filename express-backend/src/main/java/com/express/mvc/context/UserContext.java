@@ -4,8 +4,6 @@ package com.express.mvc.context;
 import com.express.domain.User;
 
 /**
- * @user: 180296-Web寻梦狮
- * @date: 2018-02-03 16:17
  * @description: 线程中保存token ,保证登录用户信息解析后存在同一个线程中共享数据信息
  */
 public class UserContext {

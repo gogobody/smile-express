@@ -1,6 +1,4 @@
 /**
- *@user: 180296-Web寻梦狮
- *@date: 2018-01-12 09:03
  *@description: mvc-chain 这个动作链配置文件,与nutz默认的配置文件,仅仅多了一行mvc.LogTimeProcessor
  *  "!org.nutz.integration.shiro.NutShiroProcessor",
  */

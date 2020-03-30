@@ -13,8 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @user: 180296-Web寻梦狮
- * @date: 2018-02-03 15:02
  * @description: 允许跨域
  */
 @IocBean(name="crossFilter")

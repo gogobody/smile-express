@@ -9,8 +9,6 @@ import java.security.Key;
 import java.util.Date;
 
 /**
- * @user: 180296-Web寻梦狮
- * @date: 2018-02-03 15:37
  * @description: 生成token
  */
 public class JwtToken {

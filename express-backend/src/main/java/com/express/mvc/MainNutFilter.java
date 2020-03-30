@@ -9,8 +9,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @user: 180296-Web寻梦狮
- * @date: 2018-01-12 11:00
  * @description: 重写
  */
 public class  MainNutFilter extends NutFilter {

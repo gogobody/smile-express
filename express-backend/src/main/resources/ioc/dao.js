@@ -1,6 +1,4 @@
 /**
- *@user: 180296-Web寻梦狮
- *@date: 2018-01-10 16:36
  *@description: dao.js
  */
 

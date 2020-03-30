@@ -1,8 +1,6 @@
 package com.express.mvc;
 
 /**
- * @user: 180296-Web寻梦狮
- * @date: 2018-01-12 09:07
  * @description: LogTimeProcessor 继承org.nutz.mvc.impl.processor.AbstractProcessor
  * 然后打开MainModule这个类,加入一个注解
  * @ChainBy(args="mvc/mvc-chain.js") 启动tomcat并登陆登出,可以看到有类似的log输出
