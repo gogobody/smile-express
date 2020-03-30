@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx818c52c9a3cb9752",
-	"projectname": "errand-wx-app",
+	"projectname": "express-app",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

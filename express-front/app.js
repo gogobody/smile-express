@@ -35,8 +35,8 @@ App({
   },
   globalData: {
     //baseUrl: 'http://172.28.6.20:8080/api/v1',
-    baseuri:'http://localhost:8088/errand_war_exploded',
-    baseUrl: 'http://localhost:8088/errand_war_exploded/api/v1',
+    baseuri:'http://localhost:8088/express_war_exploded/',
+    baseUrl: 'http://localhost:8088/express_war_exploded/api/v1',
     adminUrl: '',
     userInfo: null,
     openId: '',

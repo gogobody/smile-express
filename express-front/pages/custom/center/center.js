@@ -18,6 +18,7 @@ Page({
    */
   onLoad: function (options) {
        console.log("djjdj")
+
   },
 
   /**
@@ -32,6 +33,7 @@ Page({
    */
   onShow: function () {
     console.log("onSHow");
+    console.log(this.data.wxInfo)
     var that = this;
     wx.request({
       url: app.globalData.baseUrl + '/login/getUserInfo',//自己的服务接口地址
