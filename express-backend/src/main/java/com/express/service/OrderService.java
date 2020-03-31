@@ -151,7 +151,7 @@ public class OrderService extends BaseService<Order>{
 
         // 组装条件
         if(status == 0) {  // 全部
-
+//            cri.where().and("orderStatus", "<>", status);
         } else {
             // 如果查询已完成的，就把已完成和带评论的都返回
             if(status == 5){// 订单状态 1.待付款 2.待取货 3.待送货 4.待评论 5.已完成 6已取消 7待派单
@@ -261,8 +261,8 @@ public class OrderService extends BaseService<Order>{
         }
 
         // 组装条件
-        if(status == 0) {  // 全部
-
+        if(status == 0) {  // 全部1.待付款 2.待取货 3.待送货 4.待评论 5.已完成 6已取消 7待派单
+            cri.where().and("orderStatus", "=", 3).and("orderStatus", "=", 4).and("orderStatus", "=", 5);
         } else {
             cri.where().and("orderStatus", "=", status);
         }
@@ -404,7 +404,7 @@ public class OrderService extends BaseService<Order>{
         try {
             Trans.exec(new Atom() {
                 public void run() {
-                    order.setOrderStatus(3); // 订单状态 1.待付款 2.待取货 3.待送货 4.待评论 5.已完成 6已取消 7待派单
+                    order.setOrderStatus(5); // 订单状态 1.待付款 2.待取货 3.待送货 4.待评论 5.已完成 6已取消 7待派单
                     dao().update(order, "^orderStatus$");
                     dao().update(order,"^content$");
                     dao().update(order,"^label$");

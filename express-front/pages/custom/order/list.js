@@ -47,10 +47,11 @@ Page({
 
           for (var i = 0; i < res.payload.list.length; i++) {
             thisTime = res.payload.list[i].getTime;
+            console.log(thisTime)
             //thisTime = thisTime.replace(/-/g, '/');
             time = new Date(thisTime);
             time = time.getTime();
-            //console.log(time);
+            console.log(time);
             if (time - nowTime < 0) {
               res.payload.list[i].remain_time = -parseInt((nowTime - time) / 1000 / 60); // 超时多少分钟
             } else {

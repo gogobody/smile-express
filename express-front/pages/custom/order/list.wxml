@@ -2,7 +2,7 @@
 	<view class="column-list tab">
 		<view class="{{currentIndex == 1?'column-item active':'column-item'}}" data-index="1" bindtap='switchTab'>全部</view>
 		<view class="{{currentIndex == 2?'column-item active':'column-item'}}" data-index="2" bindtap='switchTab' data-status="1">待付款</view>
-		<view class="{{currentIndex == 3?'column-item active':'column-item'}}" data-index="3" bindtap='switchTab' data-status="2">待取货</view>
+		<!-- <view class="{{currentIndex == 3?'column-item active':'column-item'}}" data-index="3" bindtap='switchTab' data-status="2">待取货</view> -->
 		<view class="{{currentIndex == 4?'column-item active':'column-item'}}" data-index='4' bindtap='switchTab' data-status="3">待确认</view>
 		<view class="{{currentIndex == 5?'column-item active':'column-item'}}" data-index='5' bindtap='switchTab' data-status="5">已完成</view>
 	</view>

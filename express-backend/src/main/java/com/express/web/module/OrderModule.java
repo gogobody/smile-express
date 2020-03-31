@@ -261,7 +261,7 @@ public class OrderModule {
         page.setPageNo(pageNo);
         page.setPageSize(pageSize);
         List<Order> list = null;
-        if(status == 2) { // // 订单状态 1.待付款 2.待取货 3.待送货 4.待评论 5.已完成 6已取消 7待派单
+        if(status == 2) { //改成了查看所有 // 订单状态 1.待付款 2.待取货 3.待送货 4.待评论 5.已完成 6已取消 7待派单
             list = orderService.list(status, user.getId(), page, 1);  // seller
         } else {
             list = orderService.list(status, (long) 0, page);
